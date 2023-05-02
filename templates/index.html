@@ -1,0 +1,22 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+  <body style="background-color:#5DADE2">
+  	<br>
+  	<br>
+  	<h1 class="text-center"><b>Image of Logo Comparison</b></h1><br><br>
+  	<div class="container">
+    <form class="p-3 text-center" action = "{{ url_for('uploads') }}" method = "POST" enctype = "multipart/form-data">
+      <input class="form-control text-center" type = "file" name = "file" />
+      <input class="btn btn-primary mt-3" type = "submit" />
+    </form>
+    
+</div>
+  </body>
+</html>
+
+  
+    
